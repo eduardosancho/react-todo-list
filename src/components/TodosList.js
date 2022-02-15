@@ -3,9 +3,8 @@ import propTypes from 'prop-types';
 import TodoItem from './TodoItem';
 
 function TodosList(props) {
-  const { todos } = props;
-  const { handleChangeProps } = props;
-  const { deleteTodoProps } = props;
+  const { todos, handleChangeProps, deleteTodoProps } = props;
+
   return (
     <ul>
       {todos.map((todo) => (

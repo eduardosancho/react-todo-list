@@ -2,9 +2,7 @@ import React from 'react';
 import propTypes from 'prop-types';
 
 export default function TodoItem(props) {
-  const { todo } = props;
-  const { handleChangeProps } = props;
-  const { deleteTodoProps } = props;
+  const { todo, handleChangeProps, deleteTodoProps } = props;
   return (
     <li>
       <input
