@@ -8,7 +8,7 @@
 
 ## Live Demo
 
-Check out this project live, click [here](https://eduardosancho.github.io/math_magicians/)
+Check out this project live, click [here](https://eduardosancho.github.io/react-todo-list/)
 <hr>
 
 ## Built With
